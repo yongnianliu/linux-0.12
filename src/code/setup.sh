@@ -38,18 +38,18 @@ env_install(){
 
     if [ -z `which gcc-3.4` ]; then
         _echo_info "Start installing gcc-3.4..."
-        for deb in ${DOWNLOAD_LIST[*]}; do
-            if [ ! -e ${GCC_DIR}/${deb} ]; then
-                wget http://old-releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.4/${deb} -P ${GCC_DIR} -q --show-progress && \
-                _echo_info "Download ${deb} Sucessfully." || ( rm ${deb} & _echo_err "Download ${deb} unsuccessfully!!!" )
-            fi
-        done
+        # for deb in ${DOWNLOAD_LIST[*]}; do
+        #     if [ ! -e ${GCC_DIR}/${deb} ]; then
+        #         wget http://old-releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.4/${deb} -P ${GCC_DIR} -q --show-progress && \
+        #         _echo_info "Download ${deb} Sucessfully." || ( rm ${deb} & _echo_err "Download ${deb} unsuccessfully!!!" )
+        #     fi
+        # done
         sudo dpkg -i ${GCC_DIR}/*.deb &> /dev/null
         sudo apt-get install -y -f &> /dev/null
         if [ ! -z `which gcc-3.4` ];then
             _echo_succ "gcc-3.4 is installed."
         fi
-        rm -rf ${GCC_DIR}
+        # rm -rf ${GCC_DIR}
     fi
 }
 
@@ -62,7 +62,7 @@ bochs_install(){
 
     sudo apt-get install -y build-essential &> /dev/null
     sudo apt-get install -y bochs bochs-x bochs-sdl &> /dev/null
-    
+
     if [ ! -e "bochs-2.6.9.tar.gz" ]; then
         wget https://downloads.sourceforge.net/project/bochs/bochs/2.6.9/bochs-2.6.9.tar.gz -q --show-progress  && \
         _echo_succ "Download bochs-2.6.9.tar.gz Sucessfully." || (rm bochs-2.6.9.tar.gz & _echo_err "Download bochs-2.6.9.tar.gz unsuccessfully!!!" )
@@ -78,7 +78,7 @@ bochs_install(){
         cd bochs-2.6.9
         if [ "$1" ] && [ "$1" = "-d" ];then
         sudo apt-get install aptitude && sudo aptitude install libgtk2.0-dev
-        ./configure --enable-gdb-stub --enable-disasm 
+        ./configure --enable-gdb-stub --enable-disasm
         # ./configure --enable-debugger --enable-disasm
         make  && (cp bochs ../bochs-gdb & _echo_succ "make bochs sucessfully.") || _echo_err "make bochs unsucessfully.!!!"
         else
