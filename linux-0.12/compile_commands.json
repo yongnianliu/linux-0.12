@@ -1,0 +1,1270 @@
+[
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../../include",
+            "-o",
+            "ramdisk.o",
+            "ramdisk.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/blk_drv",
+        "file": "ramdisk.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "exit.o",
+            "exit.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "exit.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "string.o",
+            "string.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "string.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "div.o",
+            "div.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/math",
+        "file": "div.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "mktime.o",
+            "mktime.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "mktime.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../../include",
+            "-o",
+            "tty_io.o",
+            "tty_io.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/chr_drv",
+        "file": "tty_io.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "error.o",
+            "error.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/math",
+        "file": "error.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "errno.o",
+            "errno.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "errno.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "char_dev.o",
+            "char_dev.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "char_dev.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../../include",
+            "-o",
+            "floppy.o",
+            "floppy.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/blk_drv",
+        "file": "floppy.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "get_put.o",
+            "get_put.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/math",
+        "file": "get_put.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../../include",
+            "-o",
+            "hd.o",
+            "hd.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/blk_drv",
+        "file": "hd.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../../include",
+            "-o",
+            "tty_ioctl.o",
+            "tty_ioctl.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/chr_drv",
+        "file": "tty_ioctl.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-builtin",
+            "-nostdinc",
+            "-Iinclude",
+            "-o",
+            "init/main.o",
+            "init/main.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12",
+        "file": "init/main.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "sched.o",
+            "sched.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "sched.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "select.o",
+            "select.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "select.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "traps.o",
+            "traps.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "traps.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "sys.o",
+            "sys.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "sys.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "exec.o",
+            "exec.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "exec.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "bitmap.o",
+            "bitmap.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "bitmap.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "ioctl.o",
+            "ioctl.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "ioctl.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "panic.o",
+            "panic.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "panic.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "file_dev.o",
+            "file_dev.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "file_dev.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "truncate.o",
+            "truncate.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "truncate.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../../include",
+            "-o",
+            "ll_rw_blk.o",
+            "ll_rw_blk.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/blk_drv",
+        "file": "ll_rw_blk.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "pipe.o",
+            "pipe.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "pipe.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "buffer.o",
+            "buffer.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "buffer.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "block_dev.o",
+            "block_dev.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "block_dev.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "swap.o",
+            "swap.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/mm",
+        "file": "swap.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "ea.o",
+            "ea.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/math",
+        "file": "ea.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "vsprintf.o",
+            "vsprintf.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "vsprintf.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../../include",
+            "-o",
+            "console.o",
+            "console.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/chr_drv",
+        "file": "console.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "read_write.o",
+            "read_write.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "read_write.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "super.o",
+            "super.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "super.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "fcntl.o",
+            "fcntl.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "fcntl.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "execve.o",
+            "execve.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "execve.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "file_table.o",
+            "file_table.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "file_table.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "open.o",
+            "open.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "open.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../../include",
+            "-o",
+            "serial.o",
+            "serial.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/chr_drv",
+        "file": "serial.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "_exit.o",
+            "_exit.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "_exit.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "dup.o",
+            "dup.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "dup.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "ctype.o",
+            "ctype.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "ctype.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "close.o",
+            "close.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "close.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "add.o",
+            "add.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/math",
+        "file": "add.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "open.o",
+            "open.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "open.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "stat.o",
+            "stat.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "stat.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "math_emulate.o",
+            "math_emulate.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/math",
+        "file": "math_emulate.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-builtin",
+            "-o",
+            "tools/build",
+            "tools/build.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12",
+        "file": "tools/build.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "malloc.o",
+            "malloc.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "malloc.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "printk.o",
+            "printk.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "printk.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "memory.o",
+            "memory.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/mm",
+        "file": "memory.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "setsid.o",
+            "setsid.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "setsid.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "fork.o",
+            "fork.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "fork.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "inode.o",
+            "inode.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "inode.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "write.o",
+            "write.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "write.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "convert.o",
+            "convert.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/math",
+        "file": "convert.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-fno-defer-pop",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "namei.o",
+            "namei.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/fs",
+        "file": "namei.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../../include",
+            "-o",
+            "pty.o",
+            "pty.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/chr_drv",
+        "file": "pty.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "compare.o",
+            "compare.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/math",
+        "file": "compare.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "signal.o",
+            "signal.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel",
+        "file": "signal.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "log_print.o",
+            "log_print.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "log_print.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "mul.o",
+            "mul.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/kernel/math",
+        "file": "mul.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-fno-builtin",
+            "-I../include",
+            "-o",
+            "wait.o",
+            "wait.c"
+        ],
+        "directory": "/home/yongnianliu/developer/linux-0.12/linux-0.12/lib",
+        "file": "wait.c"
+    }
+]
